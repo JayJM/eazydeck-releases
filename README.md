@@ -15,7 +15,7 @@
 - **A live visualiser** ripples behind whichever sound is playing.
 - **Exact levels:** every volume shows its % and dB, and every mic setting shows its value.
 - **Search:** press **Ctrl+K** (you can change this in Settings › Hotkeys).
-- **Four colour presets:** Volt, Ember, Plasma and Frost, with a fully dark window to match.
+- **Ten colour presets:** Volt, Ember, Plasma and Frost, plus gamer presets Toxic, Rage, Legendary, Epic, Rare and Terminal, all with a fully dark window to match. The playing visualiser takes on a darker shade of whichever preset you pick.
 - **Automatic updates:** EazyDeck checks this page for new versions, tells you in the app and in Windows, and updates in one click.
 
 ## Getting started
