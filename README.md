@@ -1,10 +1,77 @@
-# EazyDeck downloads
+# EazyDeck
 
-This repository only holds the finished EazyDeck builds. The source code is kept privately.
+**The soundboard for gamers and streamers.** Play sound effects and music to your friends while you talk, in Discord, TeamSpeak, in-game voice chat, OBS or calls. They hear your voice and your sounds together, and you hear them too.
 
-**Download:** open [Releases](../../releases/latest) and download `EazyDeck.exe`.
+**[Download the latest EazyDeck.exe](../../releases/latest)**: free, no install, for Windows 10 and 11.
 
-- `EazyDeck.exe`: the soundboard. Run it; no install is needed.
-- `EazyDeck-AudioCheck.exe`: an optional tool that lists your audio devices if something isn't routing.
+## What it does
 
-Once installed, EazyDeck checks this page for new versions, tells you when one is ready, and updates itself.
+- **Sources:** send sounds to Discord, games and more, each with its own volume and mute. Click a source's icon to mute it, or its name to switch between them.
+- **Sound slots 1–10:** put any sound in a slot and fire it with **Ctrl+Alt+1** to **Ctrl+Alt+0**, even while you're in a game. Each slot takes its sound's name.
+- **Your library, your way:** drop in files, folders or a .zip. Folders keep their exact names and become categories, subfolders included.
+- **Search:** press **Ctrl+K** (you can change this in Settings › Hotkeys).
+- **Four colour presets:** Volt, Ember, Plasma and Frost, with a fully dark window to match.
+- **Automatic updates:** EazyDeck checks this page for new versions, tells you in the app and in Windows, and updates in one click.
+
+## Getting started
+
+### 1. Install VB-Cable (one time)
+
+EazyDeck sends your sounds and voice to your chat app through a free "virtual cable": a pretend microphone that your chat app listens to.
+
+1. Download **VB-Cable** from [vb-audio.com/Cable](https://vb-audio.com/Cable/).
+2. Unzip it, right-click **VBCABLE_Setup_x64.exe** and choose **Run as administrator**, then click **Install Driver**.
+3. Restart your PC if it asks.
+
+### 2. Run EazyDeck
+
+1. Download **EazyDeck.exe** from [Releases](../../releases/latest) and double-click it. Nothing to install.
+2. Windows may show **"Windows protected your PC"** the first time, because EazyDeck isn't code-signed yet. Click **More info › Run anyway**. Updates after that don't show the warning.
+3. A short setup asks which app you use, your colour, and your microphone and headset.
+
+### 3. Point your chat app at the cable
+
+This is the only setting you change outside EazyDeck. Set your chat app's **microphone** to **CABLE Output (VB-Audio Virtual Cable)**. EazyDeck mixes your real mic in, so friends still hear you.
+
+| App | Where to change it |
+|---|---|
+| **Discord** | User Settings (cog, bottom left) › Voice & Video › Input Device. Also turn **Noise Suppression off**, or Discord may cut your music out. |
+| **TeamSpeak** | Settings › Capture (TS3: Tools › Options › Capture). With push-to-talk, sounds only go out while you hold the key. |
+| **In-game voice** | The game's Audio or Voice Chat settings › microphone. If there's no option, set CABLE Output as the default recording device in Windows Sound settings. |
+| **OBS / Streamlabs** | Add an Audio Input Capture set to CABLE Output, and mute your separate mic source. |
+| **Zoom, Teams, Meet** | Audio settings › Microphone. In Zoom, turn on "Original sound for musicians". |
+
+EazyDeck shows the same steps for your app during setup and in **Settings › Help & tour**.
+
+### 4. Add your sounds
+
+Drag sound files, a folder or a .zip onto the window, or click **Add sounds**. Supported: MP3, WAV, OGG, FLAC, M4A, AAC, WMA and AIFF.
+
+## Using EazyDeck
+
+- **Click a pad** to play it; click it again to pause.
+- **Space** plays or pauses, **Esc** stops everything.
+- **Right-click a pad** to give it its own hotkey, put it in a slot, or show it in File Explorer.
+- **Player keys** (work in games too): Ctrl+Alt+P play/pause, Ctrl+Alt+Right next, Ctrl+Alt+Left previous, Ctrl+Alt+S stop all. Change any of them in Settings › Hotkeys.
+- **Two volumes:** the source slider is what your friends hear; **My headset** is what you hear.
+
+### More than one app at once
+
+Want sounds in Discord but not in your game? Add another source in **Settings › Audio & devices**. Each source needs **its own cable**. Free VB-Cable gives you one; the VB-Cable A+B and C+D packs from vb-audio.com add four more.
+
+## If something isn't working
+
+- **Friends can't hear sounds:** check your chat app's microphone is set to *CABLE Output*, and the source isn't muted in EazyDeck's player bar.
+- **Discord cuts the music out:** turn off Noise Suppression and Echo Cancellation in Voice & Video.
+- **A hotkey does nothing:** another app may already use it. EazyDeck tells you, and you can pick a different one in Settings › Hotkeys.
+- **Still stuck:** run **Settings › Help & tour › Run audio check**, or download **EazyDeck-AudioCheck.exe** from the release. It tests every step and shows PASS or FAIL for each.
+
+Your settings live in `%AppData%\EazyDeck`. Deleting that folder resets EazyDeck. Your sound files are never moved or deleted.
+
+## Updates
+
+EazyDeck checks for a new version when it starts and every few hours. When one is ready, a bar appears in the app and Windows shows a notification. Click **Update now** and EazyDeck updates and restarts, keeping your settings and sounds. Turn this off in Settings › General › Updates.
+
+---
+
+This repository only holds the finished downloads. The source code is private.
