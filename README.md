@@ -2,7 +2,7 @@
 
 **The soundboard for gamers and streamers.** Play sound effects and music to your friends while you talk, in Discord, TeamSpeak, in-game voice chat, OBS or calls. They hear your voice and your sounds together, and you hear them too.
 
-**[Download the latest EazyDeck.exe](../../releases/latest)**: free, no install, for Windows 10 and 11.
+**[Download the latest EazyDeck.exe](../../releases/latest)**: free, for Windows 10 and 11. Run it and the EazyDeck installer opens.
 
 ## What it does
 
@@ -24,11 +24,15 @@ EazyDeck sends your sounds and voice to your chat app through a free "virtual ca
 2. Unzip it, right-click **VBCABLE_Setup_x64.exe** and choose **Run as administrator**, then click **Install Driver**.
 3. Restart your PC if it asks.
 
-### 2. Run EazyDeck
+### 2. Install EazyDeck
 
-1. Download **EazyDeck.exe** from [Releases](../../releases/latest) and double-click it. Nothing to install.
+1. Download **EazyDeck.exe** from [Releases](../../releases/latest) and double-click it.
 2. Windows may show **"Windows protected your PC"** the first time, because EazyDeck isn't code-signed yet. Click **More info › Run anyway**. Updates after that don't show the warning.
-3. A short setup asks which app you use, your colour, and your microphone and headset.
+3. The installer opens. Click **Install EazyDeck**. It installs to your own user folder (no admin prompt), adds Start menu and desktop shortcuts, and appears in Windows' **Installed apps**. Prefer not to install? Click **Run without installing**.
+4. If EazyDeck is already installed, the installer offers **Update** (or **Repair**), **Open EazyDeck** and **Uninstall** instead.
+5. The first time EazyDeck opens, a short setup asks which app you use, your colour, and your microphone and headset.
+
+To remove it later: **Settings › Apps › Installed apps › EazyDeck › Uninstall**. You can keep your settings for next time, and your sound files are never touched.
 
 ### 3. Point your chat app at the cable
 
@@ -80,7 +84,7 @@ Your settings live in `%AppData%\EazyDeck`. Deleting that folder resets EazyDeck
 
 ## Updates
 
-EazyDeck checks for a new version when it starts and every few hours. When one is ready, a bar appears in the app and Windows shows a notification. Click **Update now** and EazyDeck updates and restarts, keeping your settings and sounds. Turn this off in Settings › General › Updates.
+EazyDeck checks for a new version when it starts, every 10 minutes while it's open, and shortly after your PC wakes from sleep. A tiny background check also runs every 10 minutes while it's closed and shows a Windows notification (once per version). When one is ready, a bar appears in the app and Windows shows a notification. Click **Update now** and EazyDeck updates and restarts, keeping your settings and sounds. Turn this off in Settings › General › Updates.
 
 ---
 
