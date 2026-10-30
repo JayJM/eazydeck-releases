@@ -8,7 +8,8 @@
 
 - **Sources:** send sounds to Discord, games and more, each with its own volume and mute. Click a source's icon to mute it, or its name to switch between them.
 - **Sound slots 1–10:** put any sound in a slot and fire it with **Ctrl+Alt+1** to **Ctrl+Alt+0**, even while you're in a game. Each slot takes its sound's name.
-- **Your library, your way:** drop in files, folders or a .zip. Folders keep their exact names and become categories, subfolders included.
+- **Your library, your way:** add files, folders or a .zip. Folders keep their exact names and become categories, subfolders included.
+- **Right-click anything:** rename sounds and folders with a nickname, star favourites, pin folders to the top, give a folder a random-sound hotkey, or remove things from the list (with Undo).
 - **Search:** press **Ctrl+K** (you can change this in Settings › Hotkeys).
 - **Four colour presets:** Volt, Ember, Plasma and Frost, with a fully dark window to match.
 - **Automatic updates:** EazyDeck checks this page for new versions, tells you in the app and in Windows, and updates in one click.
@@ -45,13 +46,22 @@ EazyDeck shows the same steps for your app during setup and in **Settings › He
 
 ### 4. Add your sounds
 
-Drag sound files, a folder or a .zip onto the window, or click **Add sounds**. Supported: MP3, WAV, OGG, FLAC, M4A, AAC, WMA and AIFF.
+Click **Add sounds**, or drag sound files, a folder or a .zip onto the window. Supported: MP3, WAV, OGG, FLAC, M4A, AAC, WMA and AIFF.
+
+In the picker:
+
+- **To add sound files:** select them, then click **Add files**.
+- **To add a whole folder:** go into it (or select it), then click **Add folder**. Every subfolder comes with it, so a **Music** folder holding **Country 90s** and **Rock** shows as Music › Country 90s and Music › Rock, even if Music itself has no sound files.
+- **To add just one subfolder:** go into that subfolder and click **Add folder**. Only that folder appears. If its parent is already in your library, the parent is removed automatically. Click **Keep other folders** to keep the parent's other subfolders as folders of their own, or **Undo**.
 
 ## Using EazyDeck
 
 - **Click a pad** to play it; click it again to pause.
 - **Space** plays or pauses, **Esc** stops everything.
-- **Right-click a pad** to give it its own hotkey, put it in a slot, or show it in File Explorer.
+- **Right-click a sound:** Rename (a nickname; the file isn't renamed), Add to favourites, Set hotkey, Put in hotkey slot (free slots listed first), Show in File Explorer, Remove from list.
+- **Right-click a folder:** Rename, Pin to top, Play a random sound from here, Set random-sound hotkey, Show in File Explorer, Remove from list. Removing a folder offers **Keep sub-folders** and **Undo**. No files are ever deleted.
+- **Right-click "All sounds"** to hide it from the list. Right-click an empty part of the sidebar to show it again, or to bring back anything you removed.
+- **Favourites** sit at the top of every list, with their own entry under All sounds.
 - **Player keys** (work in games too): Ctrl+Alt+P play/pause, Ctrl+Alt+Right next, Ctrl+Alt+Left previous, Ctrl+Alt+S stop all. Change any of them in Settings › Hotkeys.
 - **Two volumes:** the source slider is what your friends hear; **My headset** is what you hear.
 
