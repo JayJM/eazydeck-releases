@@ -40,7 +40,7 @@ This is the only setting you change outside EazyDeck. Set your chat app's **micr
 
 | App | Where to change it |
 |---|---|
-| **Discord** | User Settings (cog, bottom left) › Voice & Video › Input Device. Also turn **Noise Suppression off**, or Discord may cut your music out. |
+| **Discord** | User Settings (cog, bottom left) › Voice & Video › Input Device. Then turn **Echo Cancellation off** and set **Noise Suppression to Standard**: echo cancellation treats your sounds as echo and cuts them out. |
 | **TeamSpeak** | Settings › Capture (TS3: Tools › Options › Capture). With push-to-talk, sounds only go out while you hold the key. |
 | **In-game voice** | The game's Audio or Voice Chat settings › microphone. If there's no option, set CABLE Output as the default recording device in Windows Sound settings. |
 | **OBS / Streamlabs** | Add an Audio Input Capture set to CABLE Output, and mute your separate mic source. |
@@ -76,11 +76,17 @@ Want sounds in Discord but not in your game? Add another source in **Settings �
 ## If something isn't working
 
 - **Friends can't hear sounds:** check your chat app's microphone is set to *CABLE Output*, and the source isn't muted in EazyDeck's player bar.
-- **Discord cuts the music out:** turn off Noise Suppression and Echo Cancellation in Voice & Video.
+- **Discord cuts the music out:** in Voice & Video, turn **Echo Cancellation off** and set **Noise Suppression to Standard**.
 - **A hotkey does nothing:** another app may already use it. EazyDeck tells you, and you can pick a different one in Settings › Hotkeys.
 - **Still stuck:** run **Settings › Help & tour › Run audio check**, or download **EazyDeck-AudioCheck.exe** from the release. It tests every step and shows PASS or FAIL for each.
 
 Your settings live in `%AppData%\EazyDeck`. Deleting that folder resets EazyDeck. Your sound files are never moved or deleted.
+
+- **Friends hear you twice (echo):** Windows' "Listen to this device" is also sending your mic into the cable. EazyDeck warns you and can turn its own copy of your voice off in one click (your mic then works even with EazyDeck closed).
+
+## Running in the background
+
+Closing EazyDeck with **X** tucks it into the tray by the clock, so your hotkeys keep working. A notification confirms it for 8 seconds. Click it or the tray icon to open EazyDeck again; right-click the tray icon to **Quit**. Prefer X to quit? Turn off **Settings › General › Keep running when I close the window**.
 
 ## Updates
 
