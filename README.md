@@ -74,9 +74,10 @@ In the picker:
 - **Right-click "All sounds"** to hide it from the list. Right-click an empty part of the sidebar to show it again, or to bring back anything you removed.
 - **Favourites** sit at the top of every list, with their own entry under All sounds.
 - **Player keys** (work in games too): Ctrl+Alt+P play/pause, Ctrl+Alt+Right next, Ctrl+Alt+Left previous, Ctrl+Alt+S stop all. Change any of them in Settings › Hotkeys.
-- **Two volumes:** the source slider is what your friends hear; **My headset** is what you hear. Click the **%** or **dB** next to any slider to type an exact value (Enter to apply, Esc to cancel).
+- **Two volumes:** the source slider is what your friends hear; **My headset** is what you hear. Far left mutes; 50% plays sounds exactly as recorded (0 dB); 100% boosts them by +30 dB, with a built-in limiter so boosted sounds never crackle. The dB shown is exactly what's applied. Click the **%** or **dB** next to any slider to type an exact value (Enter to apply, Esc to cancel).
+- **Recommended app settings:** Settings › Audio & devices › each source › *Show recommended settings* lists what to set by hand in that app (for Discord: input sensitivity, noise suppression, echo cancellation, gain control and more). The input sensitivity is worked out from your mic settings and follows your **Mic volume**.
 - **Update history:** click the clock icon next to **?** in the title bar to see every version with its date and what changed. A dot on it means an update is waiting; you can install it from there too.
-- **Player hotkeys** are shown in the middle of the title bar, so you never forget them.
+- **Player hotkeys** are shown in the middle of the title bar. Click one to change it straight away.
 - **Drop tip:** click the small **×** to hide the "Drop sounds…" tip; right-click empty space to bring it back. Dropping files works either way, and the window lights up in your preset colour while you drag.
 
 ### More than one app at once
