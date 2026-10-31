@@ -68,6 +68,7 @@ In the picker:
 - **Space** plays or pauses, **Esc** stops everything.
 - **Right-click a sound:** Rename (a nickname; the file isn't renamed), Add to favourites, Set hotkey, Put in hotkey slot (free slots listed first), Move back (after you've dragged it to another folder), Show in File Explorer, Remove from list.
 - **Drag a sound** onto a folder to move it there, or onto Favourites to star it. Every move has **Undo**.
+- **Auto-optimise your mic** (in the setup tour, or Settings › Microphone › Auto-optimise my mic): about a minute of short prompts (stay quiet, type, talk normally, breathe, open a window, speak softly, cheer loudly) while EazyDeck listens, then it tries settings on your own recordings and applies the best ones, with Undo. Best done outside a call.
 - **Microphone settings** (Settings › Microphone): pick Headset or Speakers, choose a cleaning preset, or fine-tune every part. Turn on **Hear myself** to listen to your cleaned mic while you adjust it.
 - **Right-click a folder:** Rename, Pin to top, Play a random sound from here, Set random-sound hotkey, Show in File Explorer, Remove from list. Removing a folder offers **Keep sub-folders** and **Undo**. No files are ever deleted.
 - **Right-click "All sounds"** to hide it from the list. Right-click an empty part of the sidebar to show it again, or to bring back anything you removed.
