@@ -103,7 +103,7 @@ Closing EazyDeck with **X** tucks it into the tray by the clock, so your hotkeys
 
 ## Updates
 
-EazyDeck checks for a new version when it starts, every 10 minutes while it's open, and shortly after your PC wakes from sleep. A tiny background check also runs every 10 minutes while it's closed and shows a Windows notification (once per version). When one is ready, a bar appears in the app and Windows shows a notification. Click **Update now** and EazyDeck updates and restarts, keeping your settings and sounds. Turn this off in Settings › General › Updates.
+EazyDeck checks for a new version when it starts, every 2 minutes while it's open, and shortly after your PC wakes from sleep. A tiny background check also runs every 10 minutes while it's closed and shows a Windows notification (once per version). When one is ready, a bar appears in the app and Windows shows a notification. Click **Update now** and EazyDeck updates and restarts, keeping your settings and sounds. Turn this off in Settings › General › Updates.
 
 ---
 
