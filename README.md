@@ -44,7 +44,7 @@ This is the only setting you change outside EazyDeck. Set your chat app's **micr
 
 | App | Where to change it |
 |---|---|
-| **Discord** | User Settings (cog, bottom left) › Voice & Video › Input Device. Then turn **Echo Cancellation off**, set **Noise Suppression to Standard** (or None, as EazyDeck already cleans your mic) and turn **Automatic Gain Control off**. Echo cancellation treats your sounds as echo and cuts them out; automatic gain control turns quiet sounds back up, undoing EazyDeck's volume sliders. |
+| **Discord** | User Settings (cog, bottom left) › Voice & Video › Input Device. Then turn **Echo Cancellation off**, set **Noise Suppression to None** and turn **Automatic Gain Control off**. EazyDeck already cleans your mic (run the auto-optimise for the best result), and Discord's noise suppression would treat your sounds as noise and cut into them. Echo cancellation also cuts your sounds out, and automatic gain control turns quiet sounds back up, undoing EazyDeck's volume sliders. |
 | **TeamSpeak** | Settings › Capture (TS3: Tools › Options › Capture). With push-to-talk, sounds only go out while you hold the key. |
 | **In-game voice** | The game's Audio or Voice Chat settings › microphone. If there's no option, set CABLE Output as the default recording device in Windows Sound settings. |
 | **OBS / Streamlabs** | Add an Audio Input Capture set to CABLE Output, and mute your separate mic source. |
@@ -86,7 +86,7 @@ Want sounds in Discord but not in your game? Add another source in **Settings �
 ## If something isn't working
 
 - **Friends can't hear sounds:** check your chat app's microphone is set to *CABLE Output*, and the source isn't muted in EazyDeck's player bar.
-- **Discord cuts the music out:** in Voice & Video, turn **Echo Cancellation off** and set **Noise Suppression to Standard**.
+- **Discord cuts the music out:** in Voice & Video, turn **Echo Cancellation off** and set **Noise Suppression to None**.
 - **Sounds jump back to full volume after a pause:** that's Discord's **Automatic Gain Control** turning quiet audio up. Turn it off in Voice & Video. If it happens in your own headset, turn off **Loudness Equalization** (Windows Sound settings › your headset › Properties › Enhancements) and any "volume normaliser" in your headset's own app.
 - **Friends hear typing or breathing:** open Settings › Microphone and try the **Strong** preset, or raise the gate's **Threshold**.
 - **A hotkey does nothing:** another app may already use it. EazyDeck tells you, and you can pick a different one in Settings › Hotkeys.
