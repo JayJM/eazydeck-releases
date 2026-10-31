@@ -74,9 +74,9 @@ In the picker:
 - **Right-click "All sounds"** to hide it from the list. Right-click an empty part of the sidebar to show it again, or to bring back anything you removed.
 - **Favourites** sit at the top of every list, with their own entry under All sounds.
 - **Player keys** (work in games too): Ctrl+Alt+P play/pause, Ctrl+Alt+Right next, Ctrl+Alt+Left previous, Ctrl+Alt+S stop all. Change any of them in Settings › Hotkeys.
-- **Record sounds:** click **Record** above your pads to record whatever your PC is playing (a game, a video, voice chat), then **Stop**. It's trimmed and saved as a WAV in an **EazyDeck Sounds** folder (inside your Music folder unless you choose another in the setup tour or Settings › Audio & devices), and added to your library. Up to 5 minutes per recording.
+- **Record sounds:** click **Record** above your pads to record whatever your PC is playing (a game, a video, voice chat), then **Stop**. It's trimmed and saved as a WAV in **EazyDeck Sounds\Recordings** (inside your Music folder unless you choose another in the setup tour or Settings › Audio & devices), and added to your library. Up to 5 minutes per recording.
 - **Download a sound from a link:** click the download icon in the title bar, paste a link to a sound file (.mp3, .wav, .ogg and so on) and it's saved as a WAV in **EazyDeck Sounds** and added to your library. YouTube isn't supported (it's against YouTube's rules); play the video and use **Record** instead.
-- **No more switching devices:** while EazyDeck runs it makes the cable Windows' default mic and your headset the default output; when you **Quit** EazyDeck both go back as they were. Set your chat app's mic to **Default** once and never touch it again. (Turn this off in Settings › Audio & devices › Windows devices.)
+- **No more switching devices:** while EazyDeck runs it makes the cable Windows' default mic and your headset the default output; when you **Quit** EazyDeck both go back as they were. A tiny watcher makes sure this happens even if EazyDeck crashes or is ended from Task Manager. Set your chat app's mic to **Default** once and never touch it again. (Turn this off in Settings › Audio & devices › Windows devices.)
 - **Three volumes in the player bar:** the source slider is what your friends hear of your sounds, the **headset** slider is what you hear, and the **microphone** slider is how loud your voice is for friends (also in Settings › Audio & devices). All three use the same scale. Far left mutes; 50% plays sounds exactly as recorded (0 dB); 100% boosts them by +30 dB, with a built-in limiter so boosted sounds never crackle. The dB shown is exactly what's applied. Click the **%** or **dB** next to any slider to type an exact value (Enter to apply, Esc to cancel).
 - **Recommended app settings:** Settings › Audio & devices › each source › *Show recommended settings* lists what to set by hand in that app (for Discord: input sensitivity, noise suppression, echo cancellation, gain control and more). The input sensitivity is worked out from your mic settings and follows your **Mic volume**.
 - **Update history:** click the clock icon next to **?** in the title bar to see every version with its date and what changed. A dot on it means an update is waiting; you can install it from there too.
@@ -99,6 +99,10 @@ Want sounds in Discord but not in your game? Add another source in **Settings �
 Your settings live in `%AppData%\EazyDeck`. Deleting that folder resets EazyDeck. Your sound files are never moved or deleted.
 
 - **Friends hear you twice (echo):** Windows' "Listen to this device" is also sending your mic into the cable. EazyDeck warns you and can turn its own copy of your voice off in one click (your mic then works even with EazyDeck closed).
+
+## Start with Windows
+
+Switch on **Start with Windows** in the installer or Settings › General and EazyDeck opens quietly in the tray when you sign in. It also appears in Task Manager › Startup apps and Windows Settings › Apps › Startup, where you can switch it off too.
 
 ## Running in the background
 
