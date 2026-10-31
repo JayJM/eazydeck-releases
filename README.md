@@ -75,6 +75,7 @@ In the picker:
 - **Favourites** sit at the top of every list, with their own entry under All sounds.
 - **Player keys** (work in games too): Ctrl+Alt+P play/pause, Ctrl+Alt+Right next, Ctrl+Alt+Left previous, Ctrl+Alt+S stop all. Change any of them in Settings › Hotkeys.
 - **Two volumes:** the source slider is what your friends hear; **My headset** is what you hear. Click the **%** or **dB** next to any slider to type an exact value (Enter to apply, Esc to cancel).
+- **Update history:** click the clock icon next to **?** in the title bar to see every version with its date and what changed. A dot on it means an update is waiting; you can install it from there too.
 - **Player hotkeys** are shown in the middle of the title bar, so you never forget them.
 - **Drop tip:** click the small **×** to hide the "Drop sounds…" tip; right-click empty space to bring it back. Dropping files works either way, and the window lights up in your preset colour while you drag.
 
